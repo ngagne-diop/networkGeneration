@@ -8,7 +8,6 @@ BEGIN {
 
 # entête obligatoire pour MATSim
   {print "<?xml version=\""1".0\" encoding=\"utf-8\"?>"}
- # {print "<!DOCTYPE plans SYSTEM \"http://www.matsim.org/files/dtd/plans_v4.dtd\">"}
   {print "<!DOCTYPE roadpricing SYSTEM \"http://www.matsim.org/files/dtd/roadpricing_v1.dtd\">"}
   {print ""}
   {print "<roadpricing type=\"link\" name=\"linkToll\">"}
