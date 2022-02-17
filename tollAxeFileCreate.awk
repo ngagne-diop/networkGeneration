@@ -1,7 +1,7 @@
 # script pour générer le peage
 # Authors: Ousmane Diop and Ngagne Diop
 # Date: May 2021
-# Last edited: May 2021
+# Last edited: Juin 2021
 
 BEGIN {
   FS=",";
