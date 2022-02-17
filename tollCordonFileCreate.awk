@@ -8,7 +8,6 @@ BEGIN {
 
 # entête obligatoire pour MATSim
   {print "<?xml version=\""1".0\" encoding=\"utf-8\"?>"}
- # {print "<!DOCTYPE plans SYSTEM \"http://www.matsim.org/files/dtd/plans_v4.dtd\">"}
   {print "<!DOCTYPE roadpricing SYSTEM \"http://www.matsim.org/files/dtd/roadpricing_v1.dtd\">"}
   {print ""}
   {print "<roadpricing type=\"link\" name=\"LilleCordonToll\">"}
@@ -18,7 +17,6 @@ BEGIN {
 {
 ## position id_link
   id_link=$7;
-        #print "       				<cost start_time=\""05":00\" end_time=\""10":00\" amount=\"10.\" />"
 		
   if (NR>=2) {
         print "		<link id=\""id_link"\"/>";		
